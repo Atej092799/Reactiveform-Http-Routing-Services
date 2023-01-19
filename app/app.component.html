@@ -1,0 +1,53 @@
+<!-- <div class="firstact">
+  <h1>{{title}}</h1>
+
+  <div class="components">
+    <app-fourth></app-fourth>
+    <app-third></app-third>
+    <app-second></app-second>
+    <app-first></app-first>
+  </div>
+
+</div> -->
+
+<!-- <div *ngIf = "!isAddStudent">
+  <h2>Students List</h2>
+  <button (click)="addNewStudent()">Add New Student</button>
+  <div *ngFor="let student of studentsList">
+    <app-student [studentIn]="student"></app-student> 
+       <app-add-student (studentOut)="addStudent($event)"></app-add-student>
+  </div>
+
+</div>
+
+<div *ngIf="isAddStudent">
+  <app-add-student (studentOut)="addStudent($event)"></app-add-student>
+</div> -->
+
+
+<!-- <div *ngFor="let student of studentsList">
+  <app-student [studentIn]="student"></app-student> <br>
+  <app-add-student (studentOut)="addStudent($event)"></app-add-student>
+</div> -->
+
+
+<!-- routing -->
+<h1>Routing</h1>
+
+<nav>
+  <ul>
+    <li>
+      <a routerLink="/first-component">First Component</a>
+    </li>
+    <li>
+      <a routerLink="/second-component">Second Component</a>
+    </li>
+    <li>
+      <a routerLink="/third-component">Third Component</a>
+    </li>
+    <li>
+      <a routerLink="/fourth-component">Fourth Component</a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet> 

@@ -1,0 +1,11 @@
+.table{
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+
+.attain{
+    text-indent: 40px;
+}
+/* Para makita nga didto nag buhat student component */

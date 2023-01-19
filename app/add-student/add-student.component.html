@@ -1,0 +1,33 @@
+
+<h3>Add Student</h3>
+
+<form [formGroup]="studentForm" (ngSubmit)="addStudent()">
+    <label for="first-name">First Name</label>
+    <br>
+    <input id="first-name" type="text" formControlName="firstName">
+    <br><br>
+    <label for="last-name">Last Name</label>
+    <br>
+    <input id="last-name" type="text" formControlName="lastName">
+    <br><br>
+    <label for="age">Age</label>
+    <br>
+    <input id="age" type="number" formControlName="age">
+    <br><br>
+    <label for="gender">Gender</label>
+    <br>
+    <input id="gender" type="text" formControlName="gender">
+    <br><br>
+    <label for="nationality">Nationality</label>
+    <br>
+    <input id="nationality" type="text" formControlName="nationality">
+    <br><br>
+    <label for="degree">Degree</label>
+    <br>
+    <input id="degree" type="text" formControlName="degree">
+    <br>
+    <br>
+    <button type="submit">Add Student</button>
+
+
+</form>

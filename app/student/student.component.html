@@ -1,0 +1,17 @@
+<div class="table">
+<h3>Name: {{studentIn.firstName}} {{studentIn.lastName}}</h3>
+  <p>Age: {{studentIn.age}}</p>
+  <p>Gender: {{studentIn.gender}}</p>
+  <p>Nationality: {{studentIn.nationality}}</p>
+  <p>Home Address: {{studentIn.homeAddress}}</p>
+  <p>Status: {{studentIn.status}}</p>
+<br>
+<h3>Education Attainment</h3>
+<div class="attain">
+  <p>Elementary Schoool: {{studentIn.elementarySchool}}</p>
+  <p>High School: {{studentIn.highSchool}}</p>
+  <p>College: {{studentIn.college}}</p>
+  <p *ngIf="studentIn.degree">Degree: {{studentIn.degree}}</p>
+</div>
+<br />
+</div>
